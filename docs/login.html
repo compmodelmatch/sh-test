@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CompModelMatch</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--meta tag for auto-refreshing the page every 5 seconds for updates-->
+<!--Link to style sheet-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!--Link to Javascript and jQuery files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/test.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+  <div class="modal-dialog">
+    <img id="logo" src="assets/img1.png" alt="site logo" width="100px">
+    <div class="model-content">
+      <div class="modal-header">
+        <h1 class="text-center">Login</h1>
+      </div>
+      <div class="modal-body">
+        <form name="login"  class="col-md-12 center block">
+          <div class="form-group">
+            <input name="userid" type="text" class="form-control input-lg" placeholder="Username" required>
+          </div>
+          <div class="form-group">
+            <input name="pswrd" type="password" class="form-control input-lg" placeholder="Password" required>
+          </div>
+
+          </div>
+          <div class="form-group">
+            <input name="submit" type="submit" class="btn btn-block btn-lg btn-primary" onclick="check(this.form)" value="Login" >
+            <span class="pull-right"><a href="signup.html">Register</a></span>
+            <span><a href="#">Forgot Password</a></span>
+          </div>
+        </form>
+        <div class="modal-footer">
+          <div class="col-md-12">
+            <button id="cancel-btn" class="btn"><a href="index.html">Cancel</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!--end of jumbotron-->
+</div><!--end of container-->
+<script language="javascript">
+         function check(form) { /*function to check userid & password*/
+             /*the following code checkes whether the entered userid and password are matching*/
+                 if(form.userid.value == "user1" && form.pswrd.value == "pswrd") {
+                   window.open('profile.html')/*opens the target page while Id & password matches*/
+             }
+             else {
+                 alert("Error Password or Username is incorrect")/*displays error message*/
+             }
+         }
+     </script>
+</body>
+
+</html>

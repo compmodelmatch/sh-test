@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>profile-pic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="200" height="200"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="200" height="200" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profile" transform="translate(-76.000000, -133.000000)">
+            <g id="profile-pic" transform="translate(76.000000, 133.000000)">
+                <use stroke="#979797" mask="url(#mask-2)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="profile-picture" transform="translate(37.000000, 22.000000)" fill="#D8D8D8">
+                    <path d="M20.3913461,88.8306268 C21.4631569,84.5420807 25.7475149,79.9838975 29.9658033,78.6999059 C29.9658033,78.6999059 38.557175,75.7824432 45.3398438,74.8556387 C49.1383983,74.3365926 56.2794983,66.1767199 63.5281974,66.3320313 C70.7768965,66.4873426 74.8186648,74.8556387 80.0273438,74.8556387 C99.4295365,74.8556387 100.332511,77.7152046 100.332511,77.7152046 C104.310422,79.5655366 108.297263,84.5551828 109.241988,88.8810408 L126.550981,168.138214 C127.493638,172.454603 124.672187,175.953728 120.258238,175.953728 L6.61676163,175.953728 C2.19871883,175.953728 -0.514202116,172.47823 0.557872696,168.188628 L20.3913461,88.8306268 Z" id="body"></path>
+                    <ellipse id="head" cx="63.5" cy="37" rx="35.5" ry="37"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
